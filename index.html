@@ -1,0 +1,31 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <title> SUPER SMASH BROS TRACKER </title>
+        <header> SUPER SMASH BROS TRACKER </header>
+        <div class="container">
+            
+            <div class="column">
+                <h3>Danny</h3>
+                <h2 id="dannyscore">0</h2>
+                <div>
+                    <button id="dannyscorebtn" onclick="addDannyScore()">+1</button>
+                </div>
+            </div>
+                <div class="column">
+                    <h3>Alex</h3>
+                    <h2 id="alexscore">0</h2>
+                    <div>
+                    <button id='alexscorebtn' onclick="addAlexScore()">+1</button>
+                </div>
+                
+            </div>      
+        </div>
+        <div>
+            <button id='resetScoreBtn' onclick='reset()'> Reset Score </button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

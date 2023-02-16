@@ -1,0 +1,34 @@
+header {
+    font-size: 30px;
+    color: #27261f;
+    margin: 20px;
+    font-family: Lucida Sans Unicode
+}
+
+
+
+body {
+    margin: 0;
+    text-align: center;
+    background: #9CAF88;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: #FAF0dc 
+    
+}
+
+.score {
+    font-size: 90px;
+    color: #FAF0dc;
+    width: 120px;
+    margin: 20px;
+}
+
+#resetScoreBtn {
+    text-align: center;
+    
+    
+}
